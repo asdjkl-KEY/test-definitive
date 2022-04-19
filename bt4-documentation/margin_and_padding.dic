@@ -1,0 +1,11 @@
+class="m-[cantidad(1-6)]" => #permite colocar un margin en todas las direcciones.
+ <= mt-[cantidad] - margin-top
+ <= mr-[cantidad] - margin-right
+ <= ml-[cantidad] - margin-left
+ <= mb-[cantidad] - margin-bottom
+
+class="p-[cantidad(1-6)]" => #permite colocar un padding en todas las direcciones.
+ <= pt-[cantidad] - padding-top
+ <= pr-[cantidad] - padding-right
+ <= pl-[cantidad] - padding-left
+ <= pb-[cantidad] - padding-bottom

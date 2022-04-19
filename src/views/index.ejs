@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <%- include("partials/SEO", { path: path, namePage: "Home", keywords: "javascript, website, webdesign, html, css, make website", description: "La creación de una página web tiene 5 procesos antes de subirla a internet. Una jornada de 5 pasos para tener un buen sitio web de éxito." }) %>
+    <%- include("partials/head", { code: "main.css", path: path }) %>
+</head>
+<body>
+    <header>
+        <%- include("partials/nav") %>
+    </header>
+
+
+    <%- include("partials/scripts", {path: path}) %>
+</body>
+</html>

@@ -1,0 +1,27 @@
+class="list-group" => #permite estilizar las listas propias de bootstrap (<ul>).
+
+class="list-group-item" => #usado para los elementos <li> de una lista (<ul>)
+
+class="list-group-item-[color(bootstrap.color)]" => #permite darle un color de fondo a el item de lista.
+
+class="badge" => #usado en <span> dentro de un item de lista, coloca un contador; util para número de
+                 notificaciones.
+ <= class="badge-[color(bootstrap.color)]" - permite colocarle un fondo a la clase badge (especie de cuadrado).
+
+ <= class="badge-pill" - Estiliza el fondo del badge a ovalado.
+
+class="justify-content-between" => #acompañado de la clase "d-flex" y  "align-items-[direccion(right, center, left)]
+                                   permite colocar el contenido hacia una direccion espefífica, mientras
+                                   que en el contenedor original el contenido se muestra a la izquierda.
+
+class="list-group-item-action" => #permite colocar un efecto :hover al item de lista.
+
+class="flex-[direccion(column, row, wrap, etc)]" => #define la direccion flexible.
+
+class="breadcrumb" => #permite estilizar las listas ordenadas (<ol>); util para rutas de gestor en linea
+                      (root/downloads/breads/myproduct).
+ <= class="breadcrumb-item" - item de una lista ordenada puede acompañarse de la clase "active" para que
+                              no pueda ser seleccionado.
+
+
+

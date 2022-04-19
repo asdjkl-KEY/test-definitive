@@ -1,0 +1,123 @@
+body, header {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+header {
+    width: 100vw;
+}
+.nav-list {
+    list-style: none;
+    margin: 0;
+}
+.navbar {
+    color: #000;
+    margin: 0;
+}
+
+/*extra-small*/
+@media screen and (max-width: 576px){
+    .navbar {
+        width: 70%;
+        background: #eee9;
+        padding: 12px;
+        height: 100vh;
+        position: fixed;
+        z-index: 3;
+        margin-left: -100%;
+    }
+    .top-bar {
+        display: block;
+        padding: 12px;
+        position: relative;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        background: linear-gradient(#eee, #eee9);
+    }
+    .top-brand {
+        margin: 0 auto;
+        color: #00f;
+        font-size: 1.8em;
+    }
+    .toggle {
+        position: absolute;
+        left: 0;
+        margin-left: 12px;
+        font-size: 2em;
+    }
+    .brand {
+        display: none;
+    }
+    .nav-item {
+        padding: 4px;
+        margin: 8px;
+    }
+    .nav-item, .nav-item > a {
+        font-size: 1.2em;
+        color: #000;
+        text-decoration: none
+    }
+}
+
+
+/*small*/
+@media screen and (min-width: 576px){
+    .navbar {
+        width: 100%;
+        /*margin-left: -150%;*/
+    }
+    .nav-item > a {
+        font-size: 1.5em;
+        color: #000;
+        text-decoration: none;
+    }
+}
+
+
+/*medium*/
+@media screen and (min-width: 768px){
+    .navbar {
+        width: 80%;
+        /*margin-left: -150%;*/
+    }
+}
+
+
+/*large*/
+@media screen and (min-width: 992px){
+    .top-bar{
+        display: none;
+    }
+    .navbar {
+        padding: 12px;
+    }
+}
+/*extra-large*/
+@media screen and (min-width: 1200px){
+
+}
+/*extra-extra-large*/
+@media screen and (min-width: 1400px){
+
+}
+
+
+/*ANIMATIONS*/
+
+@keyframes aparecer {
+    from {
+        margin-left: -100%;
+    }
+    to {
+        margin-left: 0%;
+    }
+}
+@keyframes desaparecer {
+    from {
+        margin-left: 0%;
+    }
+    to {
+        margin-left: -100%
+    }
+}

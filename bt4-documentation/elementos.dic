@@ -1,0 +1,22 @@
+class="clearfix" => #si no esta los elementos se colocan encima normalmente usado en Divs.
+
+class="float-[direccion(right, left, center, none)" => #permite hacer flotar el elemento hacia una direccion específica.
+
+class="fixed-[direccion(top, bottom, right, left)" => #permite fijar el elemento hacia una direccion específica.
+
+class="sticky-[direccion(top, bottom, right, left)" => #permite que cuando el elemento alcance la colision del viewport-
+                                                       hacia la direccion determinada obtenga una posición fija.
+
+(!**Colores de textos y fondos**)
+
+(**se utilizan con la clase "bg-" para fondos y "text-" para textos**)
+__L {
+    o- primary = color azul.
+    o- success = color verde.
+    o- info = color azul tenue (**normalmente para informaciones**).
+    o- warning = color amarillo (**normalmente para advertencias**).
+    o- danger = color rojo (**normalmente para alertas**).
+    o- dark = color gris casi negro.
+    o- light = color blanco.
+    o- muted = gris tenue.
+}

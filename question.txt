@@ -1,0 +1,3 @@
+skew - propiedad css de transform: para deformar una caja  (div, etc); uso: sekw(10deg) (deg = grados)
+
+para hacer animaciones y mover elementos de lugares usar  translate()

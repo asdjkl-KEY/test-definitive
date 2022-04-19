@@ -1,0 +1,20 @@
+class="navbar" => #base para estilizar las barras de navegación.
+ <= navbar-expand-[tamaño(bootstrap.size)] - define el tamaño en que se expande la lista.
+ <= navbar-[color(bootstrap.color)] - define el color de la barra de navegación, puede acompañarse de la
+                                      clase "bg-[color(bootstrap.color)]".
+ <= navbar-nav - usado en <ul>, define esto como la lista de navegación, puede acompañarse de "ml-auto" 
+                                lo que hará que los links se posicionen a la derecha.
+ <= nav-item - define los <li> de la lista de navegación, puede acompañarse de "active" si esta en la página seleccionada.
+ <= nav-link - usado en los <a> para estilizar los links de la barra de navegación.
+ <= navbar-brand - usado en una etiqueta <a> estiliza el nombre de marca de la aplicación.
+ <= navbar-collapse - permite hacer que colapse (**se posicionen uno debajo del otro al disminuir la pantalla**) el link de navegación.
+ (**si se quiere un contenido centrado, dentro de la etiqueta <nav> debe colocar un <div> con clase "container"**).
+ <= navbar-toggler - acompañado del atributo data-toggle="collapse" permite colocar el boton que abre el menú.
+ <= navbar-toggler-icon - clase para un <span> o <i>, muestra el icono del boton que abre el menú.
+ (!**para que el boton se vea mejor colocarlo encima del <div> con clase "collapse"**).
+ <= data-target="[id]" - este atributo es necesario para saber que elemento con el id espeficifado sera colapsado.
+ (!**para que la barra de navegación no se muestre abierta al cambiar el tamaño de pantalla debemos colocar en el
+ <div> que contiene la clase "navbar-collapse" otra clase con el nombre "collapse"**)
+ (**podemos usar una etiqueta <form class="form-inline"> con un <input type="text" placeholder="Buscar" class="form-control" para una busqueda**)
+ (**colocamos un <button> abajo de el input para buscar.)
+

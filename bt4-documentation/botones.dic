@@ -1,0 +1,24 @@
+class="btn" => #transforma en boton el elemento.
+ <= btn-[color(bootstrap.color)] permite colocar un color de fondo al botón
+ <= btn-outline-[color(bootstrap.color)] - sirve para border de color y cuando :hover el fondo se llena con el color.
+
+class="btn-[tamaño(bootstrap.size)]" => #permite definir el tamaño del botón.
+
+class="btn-block" => #permite que el botón tenga 100% del ancho de pantalla.
+
+(**para colocar un icono dentro de un botón basta usar la etiqueta <i></> con una clase de cualquier libreria de iconos**).
+
+class="active disabled" => #permite mostrar un botón [clickeado, desactivado].
+
+data-toggle="button" => #Este atributo permite que el botón se quede como presionado al hacer click y volver al normal.
+
+data-toggle="dropdown" => #este atributo permite que el botón pueda abrir un menú.
+ <= class="dropdown" - usado en divs.
+
+class="dropdown-menu" => #el menu del botón dropdown.
+(**el div con la clase "dropdown-menu" debe estar debajo (html) de el div con la clase "dropdown" **)
+
+class="dropdown-item" => #usado en <a>; los items deben ir dentro del div con la clase "dropdown-menu".
+
+class="btn-group" => #Permite agrupar botones con o sin menus; util para los navs.
+

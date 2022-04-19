@@ -1,0 +1,39 @@
+#En ninguna parte se colocan los [] es solo para definir que aqui va eso que esta escrito dentro.
+No seas mamón.
+
+class="display-[tamaño(1-4)]" => #coloca el texto en gigantesco para resaltarlo, normalmente usado en
+                                 títulos, encabezados de página para mostrar su nombre u otra cosa
+class="h[número(1-6)]" => #muestra el texto con un comportamiento igual al heading pedido.
+
+class="text-muted" => #muestra el texto en color muteado (gris) o con poca opacidad.
+
+class="font-weight-bold" => #muestra el texto en negrita.
+
+class="font-italic font-small font-strike" => #fuente en [italico, pequeña, tachada].
+
+class="text-uppercase text-lowercase" => #fuente en [mayúsculas, minúsculas].
+
+class="text-capitalize" => #muestra la primera letra en mayúscula.
+
+class="lead" => #muestra el texto con otro estilo de tipografía.
+
+class="blockquote" => #muestra el texto como una cita.
+(**La etiqueta <footer> no solo se utiliza como un pie de página tambien cuando hace referencia a contenido**).
+(**la etiqueta usada para destacar una cita(libro/pagina) es <cite title="título de la cita">[CITA]</cite>**).
+(**una línea divisora opcional a <br> es <hr> y al parecer es mas usada que <br> **)
+
+(!**Alineaciones**).
+
+class="text-justify" => #Justifica el texto o  el formato de texto.
+
+class="text-left text-center text-right" => #Alinea los textos hacia [la izquierda, el centro, la derecha].
+
+class="text-[tamaño(small = sm, mediano = md, grande = lg, extra grande = xl)]-[direccion(left, center, right)]" =>
+    #coloca el texto alineado cuando el tamaño sea el espeficicado.
+
+class="align-[alineacion(top, bottom, middle)]" => #permite alinear el texto hacia [arriba, abajo, medio].
+
+class="d-[display(inline, inline-block, block, flex, etc)]" => #permite definir el display de una etiqueta.
+
+class="bg-[tipo(dark, light, sucess, etc)]" => #permite colocar un fondo al bloque/etiqueta.
+

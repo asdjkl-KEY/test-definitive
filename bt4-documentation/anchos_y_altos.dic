@@ -1,0 +1,3 @@
+class="w-[cantidad(0-100)]" => #controla el ancho del elemento en relación al porcentaje de pantalla(viewport)
+
+class="h-[cantidad(0-100)]" => #controla el alto del elemento en relación al porcentaje de pantalla(viewport)

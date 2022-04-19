@@ -1,0 +1,55 @@
+.page-brand {
+    width: auto;
+    height: 100%;
+    margin-right: 40px;
+    margin-left: 12px;
+}
+#img-brand {
+    height: 70px;
+}
+#container-banner{
+    position: relative;
+    z-index: -1;
+}
+#banner{
+    width: 100%;
+    height: 200px;
+    background: url(/images/banner.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 4px;
+    position: absolute;
+    z-index: -1;
+}
+.avatar-container {
+    width: 200px;
+    height: 200px;
+    background: url(/images/jesse.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 100%;
+    border: 4px solid #fff;
+    position: relative;
+    top: 120px;
+}
+#name-title {
+    z-index: 100;
+    color: #000;
+    margin-top: 150px;
+    text-align: center;
+}
+.card-image {
+    height: 300px;
+    width: auto;
+}
+#content-info {
+    background: url(/images/bg.jpg);
+    background-size: cover;
+}
+.card-article {
+    background: #8c18f8;
+    margin-right: 4px;
+}
+*{
+    font-family: sans-serif;
+}

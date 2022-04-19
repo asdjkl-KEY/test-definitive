@@ -1,0 +1,18 @@
+class="alert" => #permite colocar un mensaje de alerta usado en <div>.
+ <= alert-[color(bootstrap.color)] - permite definir el color de la alerta.
+ <= alert-link - define una etiqueta <a> como un link que combine con el color del fondo de caja de alerta.
+ (**normalmente en un <div> con clase "alert" colocamos una etiqueta llamada <strong></strong> que permite
+ resaltar el texto de la alerta y combina con el color de fondo; para un texto normal simplemente usar
+ <span> o <p>**).
+ (**arriba de la etiqueta <strong> colocamos una etiqueta <button type="button" class="close" data-dismiss="alert">
+ con una etiqueta <span> con el valor &times; ejemplo "<span>&times;</span>" esto hará que el <div> alert 
+ desaparezca tras hacer click en "X", y podemos colocar la clase class="alert-dismissible fade show" para
+ que el <div> alert tenga efecto vanish: desvanecer**).
+
+
+(**BARRAS DE PROGRESO**)
+
+class="pregress" => #contenedor donde estará la barra de progreso.
+ <= progress-bar - barra de progreso completado, acompañar de la clase "w-[progreso(1-100)".
+ <= progress-bar-striped - muestra la barra de progreso con rayas.
+ <= progress-bar-animated - acompaãndo de striped crea una animación en la barra de progreso.
